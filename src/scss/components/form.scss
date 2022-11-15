@@ -216,6 +216,10 @@
 		border-radius: 0.4rem;
 		outline: none;
 
+		@include breakpoint(small only) {
+			font-size: 16px;
+		}
+
 		&.wpcf7-not-valid {
 			border: 0.1rem solid rgb(209, 57, 57);
 		}

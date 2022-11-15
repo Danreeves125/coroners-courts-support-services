@@ -2,6 +2,80 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: "Freestyle Script";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/FreestyleScript-Regular.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/FreestyleScript-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Open Sans";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Regular.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Open Sans";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Light.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Light.woff") format("woff");
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Open Sans";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Bold.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Bold.woff") format("woff");
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Open Sans";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Medium.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Medium.woff") format("woff");
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Open Sans";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-BoldItalic.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-BoldItalic.woff") format("woff");
+            font-weight: bold;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Open Sans";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Italic.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-Italic.woff") format("woff");
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Open Sans";
+            src: url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-SemiBold.woff2") format("woff2"), url("<?= get_stylesheet_directory_uri() ?>/src/fonts/OpenSans-SemiBold.woff") format("woff");
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+
     <!-- Global site tag (gtag.js) - Google Analytics
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108366137-1"></script>
     <script>
