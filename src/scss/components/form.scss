@@ -207,7 +207,8 @@
 	}
 
 	&__input,
-	&__textarea {
+	&__textarea,
+	&__select {
 		width: 100%;
 		height: 6.1rem;
 		padding-left: 2rem;
@@ -215,6 +216,7 @@
 		border: 0.1rem solid $grey;
 		border-radius: 0.4rem;
 		outline: none;
+		background-color: #fff;
 
 		@include breakpoint(small only) {
 			font-size: 16px;
@@ -232,6 +234,14 @@
 			color: $grey;
 			opacity: 1;
 		}
+	}
+
+	&__select {
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy44MzkiIGhlaWdodD0iNy45MTQiIHZpZXdCb3g9IjAgMCAxMy44MzkgNy45MTQiPg0KICA8cGF0aCBpZD0iUGF0aF82NTgiIGRhdGEtbmFtZT0iUGF0aCA2NTgiIGQ9Ik0xMy44MDksNS4yMjhsLS42MTktLjYxOWEuMzc1LjM3NSwwLDAsMC0uNTMxLDBMNywxMC4yNTYsMS4zNDEsNC42MDlhLjM3NS4zNzUsMCwwLDAtLjUzMSwwbC0uNjE5LjYxOWEuMzc1LjM3NSwwLDAsMCwwLC41MzFMNi43MzQsMTIuM2EuMzc1LjM3NSwwLDAsMCwuNTMxLDBsNi41NDQtNi41NDRBLjM3NS4zNzUsMCwwLDAsMTMuODA5LDUuMjI4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMDggLTQuNDk5KSIgZmlsbD0iIzc4MjE4MSIvPg0KPC9zdmc+DQo=");
+		background-repeat: no-repeat;
+		background-position: calc(100% - 2rem) 50%;
+		background-size: 2rem;
+		appearance: none;
 	}
 
 	&__textarea {

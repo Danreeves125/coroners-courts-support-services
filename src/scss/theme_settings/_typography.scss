@@ -45,6 +45,12 @@
 			background-color: rgba(#fff, 0.16);
 		}
 	}
+
+	&--no-dash {
+		&:after {
+			display: none;
+		}
+	}
 }
 
 h1,
@@ -90,7 +96,7 @@ a {
 }
 
 p {
-	a {
+	> a {
 		color: $purple;
 		text-decoration: underline;
 	}
